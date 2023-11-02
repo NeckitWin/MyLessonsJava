@@ -1,0 +1,17 @@
+        int sum = 0;
+        int count = 0;
+        double averages = 0;
+        HashMap<String, Integer> bdgrades = new HashMap<>();
+        bdgrades.put("Nikita",5);
+        bdgrades.put("Anton",4);
+        bdgrades.put("Alisa",4);
+        bdgrades.put("Anna",5);
+
+        for(Map.Entry<String, Integer> dbStudent : bdgrades.entrySet()){
+            String students = dbStudent.getKey();
+            int grades = dbStudent.getValue();
+            sum+=grades;
+            count++;
+        }
+        averages = sum/count;
+        System.out.println("Средняя этих чисел равна: "+ averages);

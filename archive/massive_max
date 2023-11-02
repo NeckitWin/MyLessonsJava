@@ -1,0 +1,9 @@
+        int[] numbers = {412,532,12,5326,6,8754,23,5236,646734757,34,534,7364,23,634};
+        int max=0;
+
+        for(int num : numbers){
+            if (max < num){
+                max = num;
+            };
+        }
+        System.out.println("Максимально большое число: "+max);

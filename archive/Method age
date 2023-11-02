@@ -1,0 +1,12 @@
+public class Main {
+    static void age(int number){
+        if(number<18){
+            System.out.println("Nonono! Dont buy alkohol!");
+        }else {
+            System.out.println("You can buy alkohol :p");
+        }
+    }
+    public static void main(String[] args) {
+        age(20);
+    }
+}

@@ -1,0 +1,18 @@
+package lesson;
+
+public class Main {
+    public static int summ(int a,int b){
+        return a+b;
+    }
+    public static int summ(int a,int b,int c){
+        return a+b+c;
+    }
+    public static float summ(float a,float b,float c){
+        return a+b+c;
+    }
+    public static void main(String[] args) {
+        System.out.println(summ(3,5));
+        System.out.println(summ(2,5,8));
+        System.out.println(summ(2.2f,51.24f,52.12f));
+    }
+}

@@ -1,0 +1,15 @@
+        ArrayList<String> names = new ArrayList<>();
+        names.add("Nikita");
+        names.add("Alisa");
+        names.add("Sasha");
+
+
+        String name = names.get(1);
+        System.out.println(name);
+
+
+    public static void main(String[] args) {
+        HashMap<String, Integer> ages = new HashMap<>();
+        ages.put("Nikita",20);
+        ages.put("Kasia", 19);
+        ages.put("Oleg",19);

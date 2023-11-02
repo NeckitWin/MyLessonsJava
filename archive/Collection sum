@@ -1,4 +1,3 @@
-    public static void main(String[] args) {
         int sum=0;
 
         ArrayList<Integer> numbers = new ArrayList<>();
@@ -10,4 +9,3 @@
             sum+=num;
         }
         System.out.println("Suma jest = "+sum);
-    }

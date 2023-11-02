@@ -1,0 +1,8 @@
+        int[] tablica = {51,525,12};
+        int sum = 0;
+
+        for (int numbers : tablica){
+
+            sum+=numbers;
+        }
+        System.out.println("Suma wszystkich liczb z tablicy = "+sum);

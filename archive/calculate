@@ -1,0 +1,9 @@
+        double firstNumber = 10;
+        double secondNumber = 35;
+        System.out.println("Liczba A = " + firstNumber);
+        System.out.println("Liczba B = " + secondNumber);
+
+        System.out.println("Plus = "+ firstNumber+secondNumber);
+        System.out.println("Minus = " + (firstNumber-secondNumber));
+        System.out.println("Mnozyc = " + firstNumber*secondNumber);
+        System.out.println("Dzielic = "+ firstNumber/secondNumber);

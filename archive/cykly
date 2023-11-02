@@ -1,0 +1,29 @@
+// ду вайл
+
+int num = 1;
+        do {
+            System.out.println("Повторка: " + num);
+            num++;
+        } while (num <= 5);
+
+// Фор
+
+for (int i = 0; i < 5; i++) {
+    System.out.println("Итерация " + i);
+}
+
+// Вайл
+
+int count = 0;
+while (count < 5) {
+    System.out.println("Итерация " + count);
+    count++;
+}
+
+// брик останавливает функцию
+        for (int i=1;i<=10; i++){
+            if(i==6){
+                break;
+            }
+            System.out.println("Test " + i);
+        }

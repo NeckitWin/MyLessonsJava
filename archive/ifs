@@ -1,0 +1,6 @@
+        int n = 3;
+        if (n % 2 == 0){
+            System.out.println("Число является чётным");
+        } else {
+            System.out.println("Число является нечётным");
+        }

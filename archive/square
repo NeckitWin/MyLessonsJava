@@ -1,0 +1,18 @@
+public class Main {
+    public static void print(String text){
+        System.out.println(text);
+    }
+    public static void main(String[] args) {
+        String name = "Nikita";
+        int age = 20;
+        System.out.println("Привет, "+name+". Тебе: "+age);
+
+        System.out.println("Введите ширину и высоту прямоугольника:");
+        int width = 10;
+        print("Ширина = "+width+"см");
+        int height = 20;
+        print("Высота = "+height+"см");
+        int square = width*height;
+        print("Площадь прямоугольник/квадрата= "+square+"см");
+    }
+}

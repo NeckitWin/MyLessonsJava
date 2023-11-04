@@ -1,0 +1,23 @@
+package Lessons.interfaceses;
+
+public class Main {
+    public static void main(String[] args) {
+        Array a = new MyArray();
+        System.out.println(a.Add(3));
+        System.out.println(a.Add(23));
+        System.out.println(a.Add(34));
+        System.out.println(a.Add(7));
+        System.out.println(a.Add(8));
+        System.out.println(a.Get(2));
+
+        System.out.println("");
+
+        Array b = new Array1();
+        System.out.println(b.Add(3));
+        System.out.println(b.Add(23));
+        System.out.println(b.Add(34));
+        System.out.println(b.Add(7));
+        System.out.println(b.Add(8));
+        System.out.println(b.Get(2));
+    }
+}

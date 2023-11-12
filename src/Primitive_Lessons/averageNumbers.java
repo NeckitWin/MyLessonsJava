@@ -1,4 +1,4 @@
-package Lessons;
+package Primitive_Lessons;
 
 class averageNumbers{
     public static void main(String[] args) {

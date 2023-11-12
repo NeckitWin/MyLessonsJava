@@ -1,4 +1,4 @@
-package Lessons;
+package Primitive_Lessons;
 public class Main {
     public static int summ(int a,int b){
         return a+b;

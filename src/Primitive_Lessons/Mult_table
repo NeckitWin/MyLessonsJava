@@ -1,4 +1,4 @@
-package Lessons;
+package Primitive_Lessons;
 
 public class Multi_table{
     public static void main(String[] args){
